@@ -1,0 +1,113 @@
+/* CSS Document */
+body#crucible 
+{
+	background-image: url("../crucible.jpg");
+	background-color: #1F1F1F;
+	background-repeat: no-repeat;
+    background-position: right;
+	background-attachment: fixed;
+	font-family: "Impact", sans-serif;
+}
+
+body#strike
+{
+	background-image: url("../strike.jpg");
+	background-color: #1F1F1F;
+	background-repeat: no-repeat;
+    background-position: right;
+	background-attachment: fixed;
+	font-family: "Impact", sans-serif;
+}
+
+body#gambit
+{
+	background-image: url("../gambit.png");
+	background-color: #1F1F1F;
+	background-repeat: no-repeat;
+    background-position: right;
+	background-attachment: fixed;
+	font-family: "Impact", sans-serif;
+}
+
+body#raid
+{
+	background-image: url("../raid.jpg");
+	background-color: #1F1F1F;
+	background-repeat: no-repeat;
+    background-position: right;
+	background-attachment: fixed;
+	font-family: "Impact", sans-serif;
+}
+
+p#id1
+{
+	color: grey; 
+	font-size: 50px;
+	left: 650px;
+	text-align: left;
+	position: absolute;
+	font-family: bahnschrift;
+}
+
+p#id2
+{
+	color: grey; 
+	font-size: 30px;
+	left: 350px;
+	top: 110px;
+	text-align: left;
+	position: absolute;
+	font-family: bahnschrift;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+	
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover, .dropdown-btn:hover, .dropdown-btn2:hover{
+  cursor: pointer;
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+.dropdown-container2 {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
