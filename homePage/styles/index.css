@@ -1,0 +1,37 @@
+img.ghLogo
+{
+    float: right;
+    width: 2rem;   
+}
+
+img.selfImage{
+    width: 18rem;
+    float: left;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+h1{
+    border-bottom: 1px solid black;
+    color: #1d2029
+}
+
+body{
+    background-color: #5b5b87;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+    max-width: 75em;
+    color: #1d2029;
+    word-wrap: break-word;
+    font-size: 1.25em;
+}
+
+a{
+    color: #58a4b0;
+}
+
+hr{
+    border: 1px solid black;
+}
