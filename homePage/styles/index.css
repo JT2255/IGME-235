@@ -1,10 +1,10 @@
-img.ghLogo
+.ghLogo
 {
     float: right;
     width: 2rem;   
 }
 
-img.selfImage{
+#selfImage{
     width: 18rem;
     float: left;
     padding-right: 2rem;
