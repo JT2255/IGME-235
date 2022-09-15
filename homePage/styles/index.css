@@ -1,18 +1,19 @@
 .ghLogo
 {
     float: right;
-    width: 2rem;   
+    width: 3rem;   
 }
 
-#selfImage{
+.selfImage{
     width: 18rem;
     float: left;
     padding-right: 2rem;
     padding-left: 1rem;
 }
 
-h1{
+#name{
     border-bottom: 1px solid black;
+    font-size: 3rem;
     color: #1d2029
 }
 
@@ -21,15 +22,24 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-p{
+#bio{
     max-width: 75em;
     color: #1d2029;
     word-wrap: break-word;
     font-size: 1.25em;
 }
 
-a{
-    color: #58a4b0;
+a:link{
+    color: #58a4b0; 
+}
+
+a:visited, a:hover{
+    color: #b00000;
+}
+
+a:active{
+    text-decoration: underline;
+    color: #5b5b87;
 }
 
 hr{
