@@ -1,0 +1,238 @@
+html{
+    background-color: gray;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 1000px)
+{
+    #wrapper{
+        background-color: white;
+        display:grid;
+        height: 300vh;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-rows: 17.5% 15% 17.5% 15% 17.5% 15%;
+        grid-template-columns: 100%;
+        grid-template-areas:"headImg"
+                             "whaleSharkInfo"
+                             "secondSharkImg"
+                             "secondSharkInfo"
+                             "thirdSharkImg"
+                             "thirdSharkInfo";    
+        max-width: 1000px;
+    }
+
+    .whaleShark{
+        font-family: Arial, sans-serif;
+        grid-area: whaleSharkInfo;
+        padding-top: 11.2vh;
+        padding-left: 5.3vh;
+        padding-right: 5.3vh;
+        column-count: 3;
+        font-size: 1.3rem;
+    }
+    
+    .secondShark{
+        font-family: Arial, sans-serif;
+        grid-area: secondSharkInfo;
+        padding-top: 11.2vh;
+        padding-left: 5.3vh;
+        padding-right: 5.3vh;
+        column-count: 3;
+        font-size: 1.3rem;
+    }
+    
+    .thirdShark{
+        font-family: Arial, sans-serif;
+        grid-area: thirdSharkInfo;
+        padding-top: 11.2vh;
+        padding-left: 5.3vh;
+        padding-right: 5.3vh;
+        column-count: 3;
+        font-size: 1.3rem;
+    }
+
+    header{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    #top{
+        font-size: 4rem;
+        color: white;
+        transform: translateX(5.3vh) translateY(-15vh);
+    }
+    
+    #bottom{
+        font-size: 4rem;
+        color: #2393e8;
+        transform: translateX(5.3vh) translateY(-23vh);
+    }
+}
+
+@media screen and (max-width: 999px)
+{
+    #wrapper{
+        background-color: white;
+        display:grid;
+        height: 300vh;
+        grid-template-rows: 17.5% 15% 17.5% 15% 17.5% 15%;
+        grid-template-columns: 100%;
+        grid-template-areas:"headImg"
+                             "whaleSharkInfo"
+                             "secondSharkImg"
+                             "secondSharkInfo"
+                             "thirdSharkImg"
+                             "thirdSharkInfo";   
+        max-width: 500px;
+    }
+
+    header{
+        max-width: 500px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .whaleShark{
+        font-family: Arial, sans-serif;
+        grid-area: whaleSharkInfo;
+        padding-left: 5.3vh;
+        padding-right: 5.3vh;
+        font-size: 1.3rem;
+        transform: translateY(-17vh);
+    }
+    
+    .secondShark{
+        font-family: Arial, sans-serif;
+        grid-area: secondSharkInfo;
+        padding-left: 5.3vh;
+        padding-right: 5.3vh;
+        font-size: 1.3rem;
+        transform: translateY(-17vh);
+    }
+    
+    .thirdShark{
+        font-family: Arial, sans-serif;
+        grid-area: thirdSharkInfo;
+        padding-left: 5.3vh;
+        padding-right: 5.3vh;
+        font-size: 1.3rem;
+        transform: translateY(-17vh);
+    }
+   
+    .wTop{
+        font-size: 4rem;
+        color: white;
+        transform: translateX(5.3vh) translateY(-15vh);
+    }
+
+    .wBottom{
+        font-size: 4rem;
+        color: #2393e8;
+        transform: translateX(5.3vh) translateY(-23vh);
+    }
+
+    .gwBottom{
+        font-size: 4rem;
+        color: #2393e8;
+        transform: translateX(5.3vh) translateY(-30vh);
+    }
+
+    .gwTop{
+        font-size: 4rem;
+        color: white;
+        transform: translateX(5.3vh) translateY(-13vh);
+    }
+
+    .mTop{
+        font-size: 4rem;
+        color: white;
+        transform: translateX(5.3vh) translateY(-15vh);
+    }
+
+    .mBottom{
+        font-size: 4rem;
+        color: #2393e8;
+        transform: translateX(5.3vh) translateY(-31vh);
+    }
+
+    #greatWhite{
+        transform: translateY(2vh);
+        width: 100%;
+    }
+
+    #whaleShark{
+        width:100%;
+    }
+
+    #thirdShark{
+        width: 100%;
+    }
+}
+
+
+
+#headerImg{
+    grid-area: headImg;
+}
+
+#greatWhiteSharkImg{
+    grid-area: secondSharkImg;
+}
+
+#thirdSharkImg{
+    grid-area: thirdSharkImg;
+}
+
+
+
+
+
+.whaleShark::first-letter{
+    font-size: 4rem;
+    padding-right: .5rem;
+    float:left;
+    line-height: 1;
+}
+
+.secondShark::first-letter{
+    font-size: 4rem;
+    padding-right: .5rem;
+    float:left;
+    line-height: 1;
+}
+
+.thirdShark::first-letter{
+    font-size: 4rem;
+    padding-right: .5rem;
+    float:left;
+    line-height: 1;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
