@@ -1,0 +1,31 @@
+h2, h3{
+    border-bottom: solid 1px red;
+    clear: both;
+}
+
+figure{ 
+    float: right;
+}
+
+
+div[class='tet long']{
+    float:left;
+    width: 14%;
+}
+
+div[class='tet square']{
+    float:left;
+    width: 14%;
+}
+
+.tet{
+    float:left;
+    width: 14%;
+}
+
+footer{
+    position: fixed;
+    top: 5em;
+    left: 2.5em;
+    z-index: -1;
+}
