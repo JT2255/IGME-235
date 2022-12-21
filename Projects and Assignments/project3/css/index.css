@@ -1,0 +1,47 @@
+span.cell{
+    height:25px;
+    width:25px;
+    background-color: white;
+    padding:0;
+    margin:0;
+    position:absolute;
+}
+
+/* Get rid of the cell border when it is selected */
+span.cellSelected{
+    height:25px;
+    width:25px;
+    background-color: red;
+    padding:0;
+    margin:0;
+    position:absolute;
+}
+
+#gridContainer{
+    top:150px;
+    left:5px;
+    padding:0;
+    display:inline-block;
+    position:absolute;
+}
+
+#topBar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#topBar button, #topBar input {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h1{
+    font-family: 'Rubik Glitch', cursive;
+    font-size:2rem;
+}
+
+body{
+    background-color: gray;
+}

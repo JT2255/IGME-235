@@ -1,0 +1,78 @@
+body{
+    background-color: gray;
+}
+
+.first{
+    color: red;
+    position: relative;
+    height: 360px;
+}
+
+.title{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.image{
+    width: 450px;
+    height: 360px;
+    position: absolute;
+    right:0;
+    left:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote{
+    font-family: 'Open Sans', sans-serif;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+}
+
+.button{
+    background-color: red;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button1{
+    background-color: grey;
+    color: black;
+    border: 2px solid red;
+}
+
+.button1:hover{
+    background-color: red;
+    color: white;
+}
+
+.button1:active{
+    color: red;
+}
+
+footer{
+    text-align: center;
+}

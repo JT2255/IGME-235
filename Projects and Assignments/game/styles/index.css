@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+    font-size: 60px;
+    font-family: sans-serif;
+    border-bottom: 1px solid blue;
+}
+
+blockquote {
+    background-color: #808f85;
+    color: black;
+    padding: 1rem;
+}
+
+body{
+    background-color: tan;
+    color: #595959;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color:#91c499;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    color: #bdbf0f;
+}
+
+main{
+    border:1px solid black;
+    background-color: #f2e9dc;;
+    margin: 0 auto;
+    width: 80vw;
+    padding: 2rem;
+}
+
+img.rightImg {float: right; margin: 0 12px;}

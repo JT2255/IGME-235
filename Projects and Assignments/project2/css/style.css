@@ -1,0 +1,54 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: grey;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#docu{
+    width: 50%;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.interactable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+#content {
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+}
+
+.result img {
+    width: 250px;
+    height: 250px;
+}
+
+.result span {
+    order: -1;
+}

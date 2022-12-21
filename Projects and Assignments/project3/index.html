@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Cool Guy Pixel Art</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+<h1>Cool Guy Pixel Art</h1>
+
+<div id="topBar">
+	Num of Rows
+    <input type="text" id="numRow" size="1" value="30">
+    | Num of Columns
+	<input type="text" id="numCol" size="1" value="40">
+	| Include Gridlines?
+	<input type="checkbox" id="gridCheck">
+    <button type="button" id="makeGrid">Make Grid</button>
+	| Color
+	<input type="color" id="colorChooser">
+	|
+	<button type="button" id="drawMode">Draw</button>
+	<button type="button" id="eraseMode">Erase</button>
+	| Brush Size 
+	<select id="brushSize">
+		<option value="1">1</option>
+		<option value="4">4</option>
+		<option value="9">9</option>
+	</select>
+</div>
+<hr>
+<div id="gridContainer"></div>
+<script src="js/script.js"></script>
+<script src="js/class.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Phrases</title>
+    <link rel="stylesheet" href="random.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body onload="randQuote()">
+    <div class="first">
+        <h1 class="title">Chris Redfield Quotes</h1>
+        <img class="image" src="chris-redfield.png" alt="chris redfield">        
+    </div>
+
+    <div>
+        <button class="button button1" onclick = "randQuote()">New Quote</button>
+        <p class="quote">""</p>     
+    </div>
+
+    <footer>Joe Trovato 2022</footer>
+
+    <script>
+        "use strict";
+        const quotes = ["Trust is built through action, not words.",
+         "I'm no superhero",
+         "I have to face the truth, accept responsibility. That's the only way I'll get my life back.",
+         "There are opportunities to be had, but at what price? You gain, someone else loses.",
+         "Failure is not an option.",
+         "I'm not going to stop until I'm dead."];
+
+         function randQuote()
+         {
+            document.querySelector("p").innerHTML = `"${quotes[Math.floor(Math.random() * quotes.length)]}"`
+         }
+    </script>
+</body>
+</html>
